@@ -1,4 +1,4 @@
-package com.example.tp_android.data.model;
+package com.example.tp_android.data;
 
 public class Result<T> {
 
