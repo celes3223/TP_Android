@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fichaClinica.FichaClinicaNew">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="48dp"
+        android:text="Nueva Ficha"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/motivo_consulta"
+        android:layout_width="309dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Motivo Consulta"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/diagnostico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Diagnotico"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/motivo_consulta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/motivo_consulta"
+        app:layout_constraintTop_toBottomOf="@+id/motivo_consulta" />
+
+    <EditText
+        android:id="@+id/observacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Observacion"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/diagnostico"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/diagnostico"
+        app:layout_constraintTop_toBottomOf="@+id/diagnostico" />
+
+    <EditText
+        android:id="@+id/paciente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Paciente"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/observacion"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/observacion"
+        app:layout_constraintTop_toBottomOf="@+id/observacion" />
+
+    <EditText
+        android:id="@+id/fisioterapeuta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fisioterapeuta"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/paciente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/paciente"
+        app:layout_constraintTop_toBottomOf="@+id/paciente" />
+
+    <Button
+        android:id="@+id/button_newPaciente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar Ficha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fisioterapeuta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fisioterapeuta"
+        app:layout_constraintTop_toBottomOf="@+id/fisioterapeuta"
+        app:layout_constraintVertical_bias="0.186" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

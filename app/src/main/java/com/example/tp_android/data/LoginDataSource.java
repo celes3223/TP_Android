@@ -1,7 +1,6 @@
 package com.example.tp_android.data;
 
 import com.example.tp_android.data.model.LoggedInUser;
-import com.example.tp_android.data.model.Result;
 
 import java.io.IOException;
 
