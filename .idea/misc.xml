@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_menu_camenra.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_menu_manage.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_menu_send.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_menu_share.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_power_settings_new_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_reserva.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/ic_search_black_21dp.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/roundedbutton.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable-v21/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable/ficha_clinica.xml" value="0.11851851851851852" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable/ic_agendar.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable/ic_delete.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_ficha_new.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_login.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
@@ -18,6 +33,7 @@
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_paciente_item.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_reserva.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_reserva_item.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/menu/main.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -140,6 +140,7 @@ public class Paciente_ind extends AppCompatActivity {
         callPersona= Servicios.getPersonaService().borrarPersona(id);
 
         callPersona.enqueue(new Callback<Persona>() {
+
             @Override
             public void onResponse(Call<Persona> call, Response<Persona> response) {
                 Toast.makeText(Paciente_ind.this,"Paciente eliminado exitosamente",Toast.LENGTH_LONG).show();

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tp_android.ui.reserva.ReservaFragment"
+        android:label="@string/menu_reserva"
+        tools:layout="@layout/fragment_reserva" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tp_android.ui.paciente.PacienteFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_paciente" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.tp_android.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.tp_android.ui.fisio.FisioFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/nav_ficha_clinica"
+        android:name="com.example.tp_android.ui.fichaClinica.FichaClinicaFragment"
+        android:label="@string/ficha_clinca"
+        tools:layout="@layout/fragment_ficha_clinica" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.tp_android.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.tp_android.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+</navigation>
