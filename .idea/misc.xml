@@ -3,21 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_ficha_new.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_login.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_paciente__new.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_paciente_ind.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_selected_ficha_clinica.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/activity_selected_reserva.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/content_selected_ficha_clinica.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/content_selected_reserva.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_ficha_clinica.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_ficha_clinica_item.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_paciente.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_paciente_item.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_reserva.xml" value="0.1503623188405797" />
-        <entry key="..\:/Users/Walter/Desktop/TP_Android/app/src/main/res/layout/fragment_reserva_item.xml" value="0.1503623188405797" />
+
       </map>
     </option>
   </component>
