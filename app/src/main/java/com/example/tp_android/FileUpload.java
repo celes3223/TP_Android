@@ -163,7 +163,6 @@ public class FileUpload extends AppCompatActivity {
         intent.setType("application/pdf");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(intent, 86);
-//        System.out.println("Hola");
     }
 
     @Override

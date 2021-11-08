@@ -9,10 +9,9 @@ android {
     defaultConfig {
         applicationId "com.example.tp_android"
         minSdk 21
-        targetSdk 31
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary true
@@ -27,10 +26,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    /*
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    */
 }
 
 dependencies {
