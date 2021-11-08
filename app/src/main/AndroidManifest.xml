@@ -41,9 +41,11 @@
             android:label="MainActivity"
             android:theme="@style/DarkTheme.NoActionBar">
         </activity>
+
         <activity
             android:name=".ui.login.LoginActivity"
-            android:label="FrontEndTP2">
+            android:label="FrontEndTP2"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
